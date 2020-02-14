@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html dir="ltr">
+    <head>
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Website Title -->
+        <title>3D Print</title>
+        
+        <!-- Bootstrap css files -->
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+        <!-- Swiper slider css files -->
+        <link rel="stylesheet" href="css/swiper/swiper.min.css" />
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/amiri/amiri.css" />
+        <!-- Main stylesheet -->
+        <link rel="stylesheet" href="css/stylesheet.css" />
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 px-5">
+                <a class="navbar-brand" href="#">3D Print</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="swiper-container main-slider loading">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(images/blog-responsive-rules.jpg)">
+                        <img src="images/blog-responsive-rules.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Lorem Ipsum</p>
+                        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(images/home_simpl_slide1.jpg)">
+                        <img src="images/home_simpl_slide1.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Lorem Ipsum</p>
+                        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                    <figure class="slide-bgimg" style="background-image:url(images/p-project2-02.jpg)">
+                        <img src="images/p-project2-02.jpg" class="entity-img" />
+                    </figure>
+                    <div class="content">
+                        <p class="title">Lorem Ipsum</p>
+                        <span class="caption">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </main>
+        
+        <section class="about py-5">
+            <div class="container">
+                <div class="title">
+                    <h3>About Us</h3>
+                </div>
+                <div class="content">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="categories py-5 my-5">
+            <div class="container">
+                <div class="title">
+                    <h3>Top categories</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-3 col-6">
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/web-programming.svg" class="img-fluid white" alt="web" />
+                                <img src="images/code.svg" class="img-fluid blue" alt="web" />
+                            </div>
+                            <div class="caption">
+                                <h4>Web Development</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-3 col-6">
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/blueprint.svg" class="img-fluid white" alt="Engineering & Architecture" />
+                                <img src="images/blueprint (1).svg" class="img-fluid blue" alt="Engineering & Architecture" />
+                            </div>
+                            <div class="caption">
+                                <h4>Engineering & Architecture</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-3 col-6">
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/document.svg" class="img-fluid white" alt="writing" />
+                                <img src="images/file.svg" class="img-fluid blue" alt="writing" />
+                            </div>
+                            <div class="caption">
+                                <h4>writing</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-xl-3 col-md-3 col-sm-3 col-6">
+                        <div class="item">
+                            <div class="image">
+                                <img src="images/design.svg" class="img-fluid white" alt="Design" />
+                                <img src="images/design (1).svg" class="img-fluid blue" alt="Design" />
+                            </div>
+                            <div class="caption">
+                                <h4>Design</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-xl-6 col-lg-6 col-12">
+                        <div class="text">
+                            <h3>Lorem Ipsum is simply dummy text</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-6 col-lg-6 col-12">
+                        <div class="image">
+                            <img src="images/phone.png" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="title">
+                    <h3>Contact Us</h3>
+                </div>
+                <form>
+                    <input type="text" placeholder="Name" class="form-control" >
+                    <input type="email" placeholder="E-mail" class="form-control" >
+                    <input type="text" placeholder="Subject" class="form-control" >
+                    <textarea placeholder="Message" class="form-control"></textarea>
+                    <button class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+                        <h3 class="footer-title">Links</h3>
+                        <ul class="list-unstyled">
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+                        <h3 class="footer-title">Links</h3>
+                        <ul class="list-unstyled">
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                            <li class="list-item"><a href="#">lorem ipsum</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-6">
+                        <h3 class="footer-title">follow us:</h3>
+                        <ul class="list-inline social">
+                            <li class="list-inline-item"><a href="#"><img src="images/facebook.svg" class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/twitter.svg" class="img-fluid"></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/instagram.svg" class="img-fluid"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center bottom">
+                <p>All Rights reserved 3Dprint @ 2020</p>
+            </div>
+        </footer>
+
+
+
+        <!-- Js files -->
+        <script src="js/jquery/jquery-3.4.1.slim.min.js"></script>
+        <script src="js/bootstap/popper.min.js"></script>
+        <script src="js/bootstap/bootstrap.min.js"></script>
+        <script src="js/swiper/swiper.min.js"></script>
+        <script src="js/plugins.js"></script>
+    </body>
+</html>
